@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.Core.WebApp.ModelBinding", "ASP.NET.Core.ModelBinding\ASP.NET.Core.WebApp.ModelBinding.csproj", "{AC54820F-3E66-485F-B050-C014E206F941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.Core.WebApp.ModelValidation", "ASP.NET.Core.WebApp.ModelValidation\ASP.NET.Core.WebApp.ModelValidation.csproj", "{3F9E57D1-FD83-43D8-813A-D1E5A4437EBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC54820F-3E66-485F-B050-C014E206F941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC54820F-3E66-485F-B050-C014E206F941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC54820F-3E66-485F-B050-C014E206F941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC54820F-3E66-485F-B050-C014E206F941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9E57D1-FD83-43D8-813A-D1E5A4437EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9E57D1-FD83-43D8-813A-D1E5A4437EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9E57D1-FD83-43D8-813A-D1E5A4437EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9E57D1-FD83-43D8-813A-D1E5A4437EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2637826C-9D50-47AA-814B-7F8D3AFA8153}
+	EndGlobalSection
+EndGlobal
