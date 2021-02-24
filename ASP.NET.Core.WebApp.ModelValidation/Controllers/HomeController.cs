@@ -3,10 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ASP.NET.Core.WebApp.ModelValidation.Controllers
 {
@@ -57,6 +53,22 @@ namespace ASP.NET.Core.WebApp.ModelValidation.Controllers
             else
             {
                 return View();
+            }
+        }
+
+        public JsonResult ValidateDate(string Date)
+        {
+            if (!DateTime.TryParse(Date, out DateTime parssedDateTime))
+            {
+                return Json("Please enter a valid date (mm/dd/yyyy)");
+            }
+            else if (DateTime.Now > parssedDateTime)
+            {
+                return Json("Please enter a date in the future");
+            }
+            else
+            {
+                return Json(true);
             }
         }
     }
